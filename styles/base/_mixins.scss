@@ -1,0 +1,23 @@
+@mixin button ($b, $bc, $c, $ff){
+    border: $b;
+    background-color: $bc;
+    color: $c;
+    font-family: $ff;
+}
+@mixin display($d, $fx, $jc, $ai){
+    display: $d;
+    flex-direction: $fx;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin font($fs, $fw, $ta, $lp){
+    font-size: $fs;
+    font-weight: $fw;
+    text-align: $ta;
+    letter-spacing: $lp;
+}
+@mixin size($h, $w, $mt){
+    height: $h;
+    width: $w;
+    margin-top: $mt;
+}
